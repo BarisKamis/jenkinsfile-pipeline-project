@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'Compiling thethe java sds source code'
-                sh 'javac Hello.java'
+                echo 'Compiling thethe java sds dffd source code'
+                sh 'javac hello.java'
             }
         }
         stage('run') {
